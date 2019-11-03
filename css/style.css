@@ -276,33 +276,13 @@ ul.service-list{
 	font-size: 18px;
 }
 
-.single-service{
-	text-align:center;
-	height: 136px;
+.row-images{
 	margin-bottom: 32px;
 }
-.single-service-img {
-  width: 205px;
-  height: 125px;
-  padding-left:30px;
-  position: relative;
-}
-.service-img {
-  width: 205px;
-  height: 125px;
-  background: #3a9ecb;
-  position: relative;
-}
-.single-service h3{
-	margin-top: 10px;
-	color: #fff;
-	padding-bottom: 50px;
-	position:relative;
-}
-.service-img img{
-	position: absolute;
-}
 
+.row-images div{
+	padding: 15px;
+}
 
 .contact .container{
 	display: flex;
@@ -542,6 +522,7 @@ ul.service-list{
 	overflow: hidden;
 	background: none !important;
 	height: 250px;
+	text-align: center;
 }
 
 #gabinetPhoto{
